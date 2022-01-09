@@ -28,7 +28,6 @@ jobs:
         with:
           record: true
           tag: node-${{ matrix.node }}
-          build: npm run build:dev
           start: npm run start
           browser: chrome
   cypress-run-edge:
@@ -55,6 +54,5 @@ jobs:
         with:
           record: true
           tag: node-${{ matrix.node }}
-          build: npm run build:dev
           start: npm run start
           browser: edge
