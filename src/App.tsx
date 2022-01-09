@@ -6,13 +6,14 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="container">
+    <main className="container">
+      <h1>Hello Cypress</h1>
       <div>Name: home</div>
       <div>Framework: react</div>
       <div>Language: TypeScript</div>
       <div>CSS: Empty CSS</div>
       <div>Hello From {rdd.browserName}</div>
-    </div>
+    </main>
   );
 }
 
