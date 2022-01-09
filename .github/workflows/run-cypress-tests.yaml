@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install Packages
-        run: npm install --production
+        run: npm install
 
       - name: Chrome
         uses: cypress-io/github-action@v2
@@ -47,7 +47,7 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install Packages
-        run: npm install --production
+        run: npm install
 
       - name: Edge
         uses: cypress-io/github-action@v2
